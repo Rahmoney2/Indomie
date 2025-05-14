@@ -1,0 +1,442 @@
+body{
+   background-image: url(./background/bgbody.jpg.jpeg);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fork img{
+    position: absolute;
+    top: 90px;
+    left: 1350px;
+    max-width: 200px;
+}
+
+.container .nav-list a{
+    text-decoration: none;
+    gap: 8px;
+    font-size: 18px;
+    padding: 10px;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: black;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    margin-left: 200px;
+}
+
+.image img {
+    max-width: 1400px;
+    height: auto;
+    margin-left: 80px;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.hunt img {
+    max-width: 750px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.hunt .ctp button {
+    display: flex;
+    color: white;
+    background-color: red;
+    left: 42%;
+    top: 55%;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+    border-style:  solid;
+    border-color: red;
+    padding: 15px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.section4{
+    display: flex;
+    margin-top: 10px;
+}
+
+.section4 .text {
+    color: black;
+    text-align: right;
+    font: 20px "Open Sans", sans-serif;
+    margin-left: 200px;
+}
+
+.text .par h3 {
+    font: 15px "arial black";
+}
+
+.text h2 {
+    font: 30px "arial black";
+    color: #d90404;
+}
+
+.section4 .text .par {
+    font-family: "arial", Copperplate;
+}
+.text .par p {
+    font-size: 1.2rem;
+    color: black;
+    
+}
+
+.section4 .text a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    border-style:  solid;
+    border-color: #d90404;
+    background-color: #d90404;
+    border-width: 10px;
+    cursor: pointer white;
+    margin-top: 1%;
+}
+
+.section4 .food img{
+    position: absolute;
+    max-width: 37%;
+    height: auto;
+    left: 63%;
+    top: 151%;
+}
+.redfood img {
+    width: 101%;
+    position: relative;
+    top: 150px;
+}
+
+.redfood .bagtext a{
+    position: relative;
+    top: -650px;
+    left: 150px;
+    color: black;
+    padding: 10px;
+    border: 4px;
+    text-decoration: none;
+    Gap: 100px;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 2rem;
+}
+.redfood .square {
+    position: absolute;
+    border: 5px solid #d90404;
+    background-color: #d90404;
+    border-radius: 60px;
+    height: 630px;
+    width: 400px;
+    left: 300px;
+    top: 1790px;
+}
+
+
+.redfood .square .tpack{
+    position: absolute;
+    top: -30px;
+    width: 400px;
+    height: auto;
+    left: 20px;
+}
+
+
+.redfood .square .abo{
+    right: 80px;
+    top: 200px;
+    width: 600px;
+    height: auto;
+}
+
+.redfood .chick img {
+    position: relative;
+    left: 800px;
+    top: -1050px;
+    height: auto;
+    width: 500px;
+}
+
+.redfood .ind img {
+    position: relative;
+    top: -300px;
+    left: 1200px;
+    width: 500px;
+    height: auto;
+}
+
+
+.redfood .navs nav{
+    padding-right: 50px;
+    position: absolute;
+    list-style: none;
+    text-align: right;
+    font-size: 25px;
+    font-family: 'arial' fantasy sans-serif;
+    left: 87%;
+    top: 1650px;
+}
+
+.redfood .navs li a{
+    text-decoration: none;
+}
+
+.spoonsection .row img {
+    position: relative;
+    bottom: 600px;
+    height: auto;
+    width: 1690px
+}
+
+.spoonsection .row .square {
+    border: 5px solid #d90404;
+    background-color: #d90404;
+    height: 800px;
+    width: 2000px;
+    margin-top: -600px;
+}
+
+
+.spoonsection .set img {
+    position: relative;
+    top: -843px;
+    width: 500px;
+}
+
+.spoonsection .row .white {
+    position: absolute;
+    border: 5px solid white;
+    background-color: white;
+    height: 700px;
+    width: 1350px;
+    top: 2500px;
+    left: 135px;
+    border-radius: 50px;
+}
+
+.spoonsection .row .Recipes .test1 {
+    position: absolute;
+    top: 2600px;
+    left: 500px;
+    font-size: 55px;
+    color: #d90404;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.spoonsection .row .Recipes .test2 {
+    position: absolute;
+    top: 2650px;
+    left: 500px;
+    font-size: 80px;
+    color: #d90404;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.spoonsection .row .spoon img {
+    position: absolute;
+    top: 3000px;
+    left: 270px;
+    width: 200px;
+    height: auto;
+}
+
+.spoonsection .row .spoon p {
+    position: absolute;
+    top: 3120px;
+    left: 270px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer #d90404;
+    text-align: left;
+
+}
+
+.spoonsection .row .spoon a {
+    text-decoration: none;
+}
+
+.spoonsection .row .spoon1 img {
+    position: absolute;
+    top: 3000px;
+    left: 500px;
+    width: 200px;
+    height: auto;
+}
+
+.spoonsection .row .spoon1 p {
+    position: absolute;
+    top: 3120px;
+    left: 500px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer #d90404;
+    text-align: left;
+
+}
+.spoonsection .row .spoon1 a {
+    text-decoration: none;
+}
+
+.spoonsection .row .spoon2 img {
+    position: absolute;
+    top: 3000px;
+    left: 730px;
+    width: 200px;
+    height: auto;
+}
+
+.spoonsection .row .spoon2 p {
+    position: absolute;
+    top: 3120px;
+    left: 730px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer #d90404;
+    text-align: left;
+
+}
+
+.spoonsection .row .spoon2 a {
+    text-decoration: none;
+}
+
+.spoonsection .row .madam img {
+    position: absolute;
+    top: 2630px;
+    left: 815px;
+    width: 800px;
+    height: auto;
+}
+
+.spoonsection .row .wave1 img {
+    top: -450px;
+}
+
+.section5 .square1 {
+    border: 5px solid green;
+    background-color: green;
+    width: 700px;
+    height: 450px;
+    border-radius: 30px;
+    margin-top: -400px;
+    margin-left: 50px;
+}
+
+.section5 .square1 img {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    top: 3390px;
+}
+
+.section5 .square1 button {
+    position: absolute;
+    top: 3700px;
+    left: 150px;
+    color: white;
+    border-width: 10px;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Copperplate, Papyrus, fantasy;
+    cursor: pointer;
+}
+
+.section5 .square1 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.section5 .square2 {
+    border: 5px solid #d90404;
+    background-color: #d90404;
+    width: 700px;
+    height: 450px;
+    border-radius: 30px;
+    margin-top: -462px;
+    margin-left: 850px;
+}
+
+.section5 .square2 img {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    top: 3378px;
+}
+
+.section5 .square2 button {
+    position: relative;
+    top: 325px;
+    left: 130px;
+    font-size: 20px;
+    color: white;
+    border-width: 10px;
+    background-color: #d90404;
+    border-style: solid;
+    border-color: #d90404;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Copperplate, Papyrus, fantasy;
+    cursor: pointer;
+}
+
+.section5 .square2 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.section5 .images1 img {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 3950px;
+    left: 50px;
+}
+
+.section5 .images2 img {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 3950px;
+    left: 500px;
+}
+
+.section5 .image3 img {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 3950px;
+    left: 850px;
+}
+
+.section5 .image4 img {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    top: 3950px;
+    left: 1200px;
+}
+
+.foot {
+    
+}
