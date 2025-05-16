@@ -1,0 +1,188 @@
+body{
+   background-image: url(./background/bgbody.jpg.jpeg);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.fork img{
+    position: absolute;
+    top: 1px;
+    left: 1380px;
+    max-width: 200px;
+}
+
+.container .nav-list a{
+    text-decoration: none;
+    gap: 8px;
+    font-size: 18px;
+    padding: 10px;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: black;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+    margin-left: 150px;
+}
+
+.about .about-text img {
+    width: 1400px;
+    height: 650px ;
+    margin-left: 80px;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+.about .about-text .text {
+    position: absolute;
+    column-gap: unset;
+    font-size: 30px;
+    font-family: amsiprocond black;
+    color: white;
+    left: 170px;
+    top: 230px;
+}
+
+.about .about-text .text h1 {
+    text-decoration: 5px underline yellow;
+}
+
+.about .about-text .text p {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    left: 170px;
+    top: 500px;
+}
+
+.about .about-text .text img {
+    width: 700px;
+    height: auto;
+    margin-left: 10px;
+    margin-left: 500px;
+    margin-top: -700px;
+}
+.yellow .yellowtext img {
+    margin-top: 80px;
+    width: 1577px;
+    height: 700px;
+}
+
+
+.yellow .yellowtext .square {
+    border: 5px solid white;
+    width: 700px;
+    height: 600px;
+    position: absolute;
+    background-color: white;
+    top: 985px;
+    left: 800px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.yellow .yellowtext .gra {
+    position: absolute;
+    top: 905px;
+    left: 104px;
+    width: 700px;
+    height: 610px;
+    background-color: white;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.yellow .yellowtext h2 {
+    position: absolute;
+    top: 1000px;
+    left: 850px;
+    font-size: 45px;
+    font-family: amsiprocond;
+    font-weight: lighter;
+    color: red;
+    text-decoration: 5px underline yellow;
+}
+
+.yellow .yellowtext p {
+    position: absolute;
+    top: 1100px;
+    left: 850px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4b4b4b;
+} 
+
+.yellow .red img {
+    width: 1577px;
+    height: 800px;
+    position: absolute;
+    top: 1627px;
+}
+
+.yellow .red .dev {
+    position: absolute;
+    top: 1700px;
+    left: 100px;
+    width: 1400px;
+    height: 650px;
+    background-image: linear-gradient(to right, #ffffff, #f4f5fe, #e4edfe, #d0e5fe, 
+    #b7dffb, #a6dcfa, #93d9f9, #7dd6f6, #6dd5f8, #59d5fa, #3fd4fc, #01d3fe);
+    border-radius: 30px;
+}
+.yellow .red h2 {
+    position: absolute;
+    top: 1730px;
+    left: 180px;
+    font-size: 45px;
+    font-family: amsiprocond;
+    font-weight: lighter;
+    color: red;
+    text-decoration: 5px underline yellow;
+}
+
+.yellow .red p {
+    position: absolute;
+    top: 1880px;
+    left: 180px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4b4b4b;
+}
+
+.yellow .red .ave {
+    position: absolute;
+    top: 1882px;
+    left: 900px;
+    width: 570px;
+    height: auto;
+    transition: 0.5s ease-in;
+}
+
+.footer {
+    color: white;
+    position: absolute;
+    top: 2410px;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}

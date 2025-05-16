@@ -120,7 +120,7 @@ body{
     top: 151%;
 }
 .redfood img {
-    width: 101%;
+    width: 100%;
     position: relative;
     top: 150px;
 }
@@ -199,23 +199,24 @@ body{
 
 .spoonsection .row img {
     position: relative;
-    bottom: 600px;
+    bottom: 605px;
     height: auto;
-    width: 1690px
+    width: 1500px;
+    left: 40px;
 }
 
 .spoonsection .row .square {
     border: 5px solid #d90404;
     background-color: #d90404;
-    height: 800px;
-    width: 2000px;
-    margin-top: -600px;
+    height: 900px;
+    width: 1596px;
+    margin-top: -700px;
 }
 
 
 .spoonsection .set img {
     position: relative;
-    top: -843px;
+    top: -760px;
     width: 500px;
 }
 
@@ -223,16 +224,16 @@ body{
     position: absolute;
     border: 5px solid white;
     background-color: white;
-    height: 700px;
-    width: 1350px;
-    top: 2500px;
+    height: 650px;
+    width: 1250px;
+    top: 2550px;
     left: 135px;
     border-radius: 50px;
 }
 
 .spoonsection .row .Recipes .test1 {
     position: absolute;
-    top: 2600px;
+    top: 2700px;
     left: 500px;
     font-size: 55px;
     color: #d90404;
@@ -242,7 +243,7 @@ body{
 
 .spoonsection .row .Recipes .test2 {
     position: absolute;
-    top: 2650px;
+    top: 2750px;
     left: 500px;
     font-size: 80px;
     color: #d90404;
@@ -252,16 +253,16 @@ body{
 
 .spoonsection .row .spoon img {
     position: absolute;
-    top: 3000px;
-    left: 270px;
+    top: 3020px;
+    left: 230px;
     width: 200px;
     height: auto;
 }
 
 .spoonsection .row .spoon p {
     position: absolute;
-    top: 3120px;
-    left: 270px;
+    top: 3135px;
+    left: 230px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer #d90404;
@@ -275,16 +276,16 @@ body{
 
 .spoonsection .row .spoon1 img {
     position: absolute;
-    top: 3000px;
-    left: 500px;
+    top: 3020px;
+    left: 465px;
     width: 200px;
     height: auto;
 }
 
 .spoonsection .row .spoon1 p {
     position: absolute;
-    top: 3120px;
-    left: 500px;
+    top: 3135px;
+    left: 465px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer #d90404;
@@ -297,16 +298,16 @@ body{
 
 .spoonsection .row .spoon2 img {
     position: absolute;
-    top: 3000px;
-    left: 730px;
+    top: 3020px;
+    left: 690px;
     width: 200px;
     height: auto;
 }
 
 .spoonsection .row .spoon2 p {
     position: absolute;
-    top: 3120px;
-    left: 730px;
+    top: 3135px;
+    left: 690px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
     cursor: pointer #d90404;
@@ -320,9 +321,9 @@ body{
 
 .spoonsection .row .madam img {
     position: absolute;
-    top: 2630px;
-    left: 815px;
-    width: 800px;
+    top: 2584px;
+    left: 727px;
+    width: 850px;
     height: auto;
 }
 
@@ -344,19 +345,20 @@ body{
     position: absolute;
     width: 700px;
     height: auto;
-    top: 3390px;
+    top: 3361px;
 }
 
 .section5 .square1 button {
     position: absolute;
-    top: 3700px;
-    left: 150px;
+    top: 3680px;
+    left: 200px;
     color: white;
     border-width: 10px;
     background-color: black;
     border-style: solid;
     border-color: black;
     border-radius: 10px;
+    font-size: 20px;
     padding: 15px;
     font-family: Copperplate, Papyrus, fantasy;
     cursor: pointer;
@@ -381,12 +383,12 @@ body{
     position: absolute;
     width: 700px;
     height: auto;
-    top: 3378px;
+    top: 3361px;
 }
 
 .section5 .square2 button {
     position: relative;
-    top: 325px;
+    top: 335px;
     left: 130px;
     font-size: 20px;
     color: white;
@@ -409,7 +411,7 @@ body{
     position: absolute;
     width: 400px;
     height: auto;
-    top: 3950px;
+    top: 3840px;
     left: 50px;
 }
 
@@ -417,26 +419,26 @@ body{
     position: absolute;
     width: 300px;
     height: auto;
-    top: 3950px;
+    top: 3850px;
     left: 500px;
+    transition: 0.4s ease;
 }
 
 .section5 .image3 img {
     position: absolute;
     width: 300px;
     height: auto;
-    top: 3950px;
+    top: 3850px;
     left: 850px;
+    transition: 0.4s ease;
 }
 
 .section5 .image4 img {
     position: absolute;
     width: 300px;
     height: auto;
-    top: 3950px;
+    top: 3850px;
     left: 1200px;
+    transition: 0.4s ease;
 }
 
-.foot {
-    
-}
