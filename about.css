@@ -73,16 +73,17 @@ body{
 }
 
 .about .about-text .text img {
+    position: absolute;
     width: 700px;
     height: auto;
     margin-left: 10px;
     margin-left: 500px;
-    margin-top: -700px;
+    top: 30px;
 }
 .yellow .yellowtext img {
     margin-top: 80px;
-    width: 1577px;
-    height: 700px;
+    width: 1585px;
+    height: 711px;
 }
 
 
@@ -100,9 +101,9 @@ body{
 .yellow .yellowtext .gra {
     position: absolute;
     top: 905px;
-    left: 104px;
-    width: 700px;
-    height: 610px;
+    left: 105px;
+    width: 695px;
+    height: 600px;
     background-color: white;
     border-radius: 20px 0px 0px 20px;
 }
@@ -130,7 +131,7 @@ body{
 } 
 
 .yellow .red img {
-    width: 1577px;
+    width: 1585px;
     height: 800px;
     position: absolute;
     top: 1627px;
@@ -181,8 +182,48 @@ body{
     color: white;
     position: absolute;
     top: 2410px;
-    left: 0;
+    text-align: left;
     width: 100%;
-    height: 200px;
+    height: 450px;
     background-color: black;
+}
+
+.footer .test {
+    position: absolute;
+    left: 400px;
+}
+
+.footer .test h2 {
+    font-size: 45px;
+    font-family: amsiprocond-black;
+    font-weight: lighter;
+    color: #c67f54;
+}
+
+.footer .test h3 {
+    font-size: 20px;
+    font-family: "Open Sans" sans-serif;
+    font-weight: 400;
+    color: #9c4d31;
+    line-height: 1.5;
+}
+
+.footer .test p {
+    font-size: 20px;
+    font-family: amsiprocond-semi;
+    margin: 0px 0px 15px;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.footer .test .col-sm-3 a {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    font-size: 20px;
+    font-family: amsiprocond-semi;
+    margin: 0px 0px 15px;
+    font-weight: 400;
+    color: #ffffff;
 }
