@@ -240,7 +240,7 @@ body{
     top: 1300px;
     text-align: left;
     width: 100%;
-    height: 450px;
+    height: 550px;
     background-color: black;
 }
 
@@ -250,15 +250,16 @@ body{
 }
 
 .footer .test h2 {
+    top: 50px;
     font-size: 45px;
-    font-family: amsiprocond-black;
+    font-family: 'bebas neue', cursive;
     font-weight: lighter;
     color: #c67f54;
 }
 
 .footer .test h3 {
     font-size: 20px;
-    font-family: "Open Sans" sans-serif;
+    font-family: 'bebas neue', cursive;
     font-weight: 400;
     color: #9c4d31;
     line-height: 1.5;
@@ -266,9 +267,48 @@ body{
 
 .footer .test p {
     font-size: 20px;
-    font-family: amsiprocond-semi;
+    font-family: 'bebas neue', cursive;
     margin: 0px 0px 15px;
     font-weight: 400;
     color: #ffffff;
     line-height: 1.5;
+}
+
+.footer .social h3 {
+    position: absolute;
+    display: flex;
+    left: 1280px;
+    margin-top: 70px;
+    color: #9c4d31;
+    font-size: 30px;
+}
+
+.footer 
+
+.footer .cont a {
+    position: relative;
+    left: 900px;
+    color: #9c4d31;
+    top: 250px;
+    font-size: 30px;
+}
+
+.footer .cont a:hover {
+    text-decoration: none;
+}
+
+.footer .cont a span {
+    font-size: 20px;
+    font-family: 'bebas neue', cursive;
+    color: #9c4d31;
+    text-decoration: none;
+}
+
+.footer .social .hom {
+    position: relative;
+    left: 1300px;
+    top: 120px;
+    padding: 5px;
+    font-size: larger;
+    color: #9c4d31;
 }

@@ -111,14 +111,107 @@ body{
     position: absolute;
     width: 400px;
     height: auto;
-    margin-left: 80px;
-    top: -100px;
+    top: 1080px;
     left: 100px;
     border-radius: 10px 10px 0px 0px;
 }
 
-.let .home .vid1 {
+.let .home .are {
     position: absolute;
+    top: 1380px;
+    margin-left: 92px;
     border: 5px solid white;
+    background-color: white;
+    height: 80px;
+    width: 389px;
+}
+
+.let .home .vid2 img {
+    height: auto;
     width: 400px;
+    margin-left: 600px;
+    margin-top: -1500px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    text-align: right;
+    height: 500%;
+    top: 193%;
+    left: 0%;
+}
+
+.footer p .cont {
+    font-size: 40px;
+    font-family: 'bebas neue', cursive;
+    color: tomato; 
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
+
+.wew {
+    margin-top: -25px;
+    position: absolute;
+    top: 29%;
+    left: 30%;
+    color: #b34f3d;
+}
+
+.duf {
+    margin-top: -25px;
+    position: absolute;
+    top: 43%;
+    font-family: 'bebas neue', cursive;
+    color: white;
+    font-size: 18px;
+}
+
+.foll {
+    position: absolute;
+    left: 73%;
+    top: 8%;
+    font-size: 40px;
+    font-family: 'bebas neue', cursive;
+    color: #b34f3d;
+}
+
+.copy {
+    position: absolute;
+    left: 27.5%;
+    top: 80%;
+}
+
+.na {
+    padding-top: 30px;
+    font-size: large;
+    margin-right: 80px;
+}
+
+.na ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+li .hom {
+    color: #b34f3d;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+li .hom:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.copy1 {
+    position: absolute;
+    font-size: 10px;
+    left: 67.3%;
+    top: 92%;
+    color: #b34f3d;
 }
